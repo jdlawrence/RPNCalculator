@@ -74,7 +74,7 @@
 
    /* Gradient for Background
    background: #f7a831; /* Old browsers */
-   background: -moz-linear-gradient(top,  #f7a831 0%, #79e0d9 100%); /* FF3.6+ */
+   background: -moz-linear-gradient(top,  #f7a832 0%, #79e0d9 100%); /* FF3.6+ */
    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7a831), color-stop(100%,#79e0d9)); /* Chrome,Safari4+ */
    background: -webkit-linear-gradient(top,  #f7a831 0%,#79e0d9 100%); /* Chrome10+,Safari5.1+ */
    background: -o-linear-gradient(top,  #f7a831 0%,#79e0d9 100%); /* Opera 11.10+ */
