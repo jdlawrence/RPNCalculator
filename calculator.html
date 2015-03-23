@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<head>
+	<title>My Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id = "container">
+		<!-- Screen Divs -->
+		<div id="screen">
+			<div class="row">
+				<div class="label">Z:</div>
+				<div class="registers" id="r3">&nbsp;</div>
+			</div>
+			<div class="row">
+				<div class="label">Y:</div>
+				<div class="registers" id="r2">&nbsp;</div>
+			</div>
+			<div class="row">
+				<div class="label">X:</div>
+				<div class="registers" id="r1">0</div>
+			</div>
+		</div>
+
+		<!-- Button Divs -->
+		<div id = "buttonSpace">
+			<div class ="row">
+				<div class="col-6">&nbsp</div>
+				<div class="button col-1" id="seven">7</div>
+				<div class="button col-1" id="eight">8</div>
+				<div class="button col-1" id="nine">9</div>
+				<div class="col-1">&nbsp</div>
+				<div class="button col-1" id="multiply">X</div>
+				<div class="button col-1" id="divide">/</div>
+				<div class="button col-1" id="sqrt">sqrt</div>
+			</div>
+			<div class ="row">
+				<div class="col-6">&nbsp</div>
+				<div class="button col-1" id="four">4</div>
+				<div class="button col-1" id="five">5</div>
+				<div class="button col-1" id="six">6</div>
+				<div class="col-1">&nbsp</div>
+				<div class="button col-1" id="add">+</div>
+				<div class="button col-1" id="subtract">-</div>
+				<div class="button col-1" id="exponent">x^y</div>
+			</div>
+			<div class ="row">
+				<div class="col-6">&nbsp</div>
+				<div class="button col-1" id="one">1</div>
+				<div class="button col-1" id="two">2</div>
+				<div class="button col-1" id="three">3</div>
+				<div class="col-1">&nbsp</div>
+				<div class="button col-1 longName" id="enter">Enter</div>
+				<div class="button col-1 longName" id="clear">Clear</div>
+				<div class="button col-1 longName" id="clearReg">ClearReg</div>
+			</div>
+			<div class ="row">
+				<div class="col-6">&nbsp</div>
+				<div class="button col-1" id="zero">0</div>
+				<div class="button col-1" id="decimal">.</div>
+				<div class="button col-1" id="negative">+/-</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
